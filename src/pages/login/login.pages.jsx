@@ -29,7 +29,7 @@ export const Login = (props) => {
     };
     console.log(data);
     axios
-      .post("http://18.134.105.30:3001/login", data)
+      .post("http://localhost:3001/login", data)
       .then((result) => {
         if (result) {
           localStorage.setItem("token", result.data.token);

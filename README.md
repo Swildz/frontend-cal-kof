@@ -1,3 +1,3 @@
-### frontend-ojtmidtest
-### backend-ojtmidtest
-https://github.com/Swildz/backend-ojtmidtest
+### frontend-calculator
+### backend-calculator
+https://github.com/Swildz/backend-cal-kof

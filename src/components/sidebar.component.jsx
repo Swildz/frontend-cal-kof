@@ -18,6 +18,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { useState } from 'react';
 import Profile from '../pages/profile/profile.page';
 import { CgProfile, CgListTree} from 'react-icons/cg';
+import { Calculator } from '../pages/calculator/calculator.pages';
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -176,7 +177,7 @@ export default function SidebarNav() {
                     menu === "Profile" && <Profile />
                 }
                 {
-                    menu === "Calculator"
+                    menu === "Calculator" && <Calculator/>
                 }
             </Box>
         </Box>
