@@ -38,7 +38,7 @@ export const Register = (props) => {
       password: password,
     };
     axios
-      .post("http://18.134.105.30:3001/daftar", data)
+      .post("http://localhost:3001/daftar", data)
       .then((result) => {
         if (result) {
           if (result.data) {
